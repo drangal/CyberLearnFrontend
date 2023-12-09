@@ -1,0 +1,33 @@
+.Admin {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.AdminHeader {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+}
+
+.AdminFooter {
+  margin: 8px;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.AdminSideMenu {
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.AdminPageContent {
+  display: flex;
+  justify-content: center;
+}
